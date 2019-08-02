@@ -1,30 +1,30 @@
 body{
 							font-size: 16px;
-			}
+							}
 	p{
-					}
+									}
 	h1,.h1{
 					font-family: Dancing Script;
 							font-size: 100px !important;
-			}
+							}
 	h2,.h2{
 							font-size: 32px;
-			}
+							}
 	h3,.h3{
 							font-size: 34px;
-			}
+							}
 	h4,.h4{
 							font-size: 26px;
-			}
+							}
 	h5,.h5{
 					font-family: Rublik;
 							font-size: 32px;
-			}
+							}
 	h6,.h6{
 							font-size: 18px;
-			}
+							}
 	a{
-					}
+									}
 
 
 
@@ -32,38 +32,29 @@ body{
 										.footer-class{
 					font-family:;
 					font-size: 14px;
+					color: ;
+					font-weight:;
 				}
 												p span{
 					font-family:;
 					font-size: inherit;
+					color: ;
+					font-weight:;
 				}
 												p, td, li, label{
 					font-family:;
 					font-size: inherit;
+					color: ;
+					font-weight:;
 				}
-												
+											
 	body *{
 line-height:1.5;
 }
 p, td, li, label{
 	line-height:1.5;
 }
-.edge-y-0 .container-fluid > div > .row {
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
 
-.edge-y-0 .is-container {
-    margin-top: 0px !important;
-    margin-bottom: 0px !important;
-}
-.edge-y--1 .container-fluid > div > .row {
-    padding-bottom: 0px;
-}
-.edge-y--1 .is-container {
-    padding-bottom: 0px;
-    margin-bottom: 0px !important;
-}
 .row img {
     margin: 1em 0 1em;
    
@@ -352,9 +343,7 @@ button.owl-next:hover i.fa.fa-angle-right,button.owl-prev:hover i.fa.fa-angle-le
 }
 
 button.btn.btn-default.submit-btn {
-  
     min-height: 51px;
-   
     font-size: 18px;
     padding-left: 30px;
     padding-right: 30px;
@@ -362,27 +351,16 @@ button.btn.btn-default.submit-btn {
     color: #fff;
     margin-top: 9px;
 }
-.form-group.col-sm-12.email .form-control {
-    background-color: transparent !important;
-    min-height: 54px;
-    border: 1px solid #0006 !important;
+textarea.form-control{
+min-height: 200px !important;
 }
-.form-group.col-sm-12.name .form-control {
+.form-group .form-control {
     background-color: transparent !important;
-    min-height: 54px;
+    
     border: 1px solid #0006 !important;
+    
 }
-.form-group.col-sm-12.message .form-control {
-    background-color: transparent !important;
-    min-height: 200px;
-    border: 1px solid #0006 !important;
-    padding-top: 17px;
-}
-.form-group.col-sm-12.subject .form-control {
-    background-color: transparent !important;
-     min-height: 54px;
-    border: 1px solid #0006 !important;
-}
+
 
 
 .widget-cat-services i.fa {
@@ -401,14 +379,7 @@ button.btn.btn-default.submit-btn {
     color: #ffffff;
 }
 
-.form-group.col-sm-12.email
-{
-    width: 50%;
-}
-.form-group.col-sm-12.name
-{
-    width: 50%;
-}
+
 .widget-cat-heading .row img {
     margin: 6.9px 0 0;
 }
@@ -421,16 +392,7 @@ button.btn.btn-default.subscribe-btn {
     right: 15px;
     color: #ffffff;
 }
-.form-group.col-sm-12.input-subcribe2 {
-    width: 78%;
-    padding-left: 0; 
-}
-.form-group.col-sm-12.message {
-    width: 100%;
-}
-.form-group.col-sm-12.subject {
-    width: 100%;
-}
+
 .form-group.col-sm-12.input-subcribe2 .form-control {
     min-height: 47px;
     background: #ffffff !important;
@@ -440,12 +402,8 @@ button.btn.btn-default.subscribe-btn {
     margin-top: 35px ;
    
 }
-.form-group.col-sm-12 {
-    width: 78%;
-}
-.widget-cat-contact .col-md-6:nth-child(2) h3 {
-    margin: 0.6em 11px;
-}
+
+
 @media screen and (max-width: 992px) 
 {
 	ul.nav.navbar-nav.navbar-right 
@@ -478,4 +436,71 @@ button.btn.btn-default.subscribe-btn {
     text-align: right;
    }
 }
+
+figure.effect-roxy:hover figcaption a {
+    font-size: initial;
+    opacity: 1;
+}
+.widget-cat-cards .is-card {
+    margin-bottom: 30px;
+}
+
 	
+.navbar-custom{
+		background-color:#222b82;
+}
+	.navbar-absolute-top{
+		position: absolute;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+		background-color: transparent;
+	}
+
+.navbar-toggle{
+	background-color:rgba(0,0,0,1);
+}
+.header3 .slide-toggle span,.header4 .slide-toggle span{
+	
+}
+.navbar-custom .navbar-nav li a{
+	background-color:rgba(255,255,255,0);
+	color:rgba(0,0,0,1);
+}
+.navbar-custom .navbar-nav li:hover > a{
+	background-color:rgba(255,255,255,0);
+	color:#1891e8;
+}
+.navbar-custom .nav>li>a:focus, .navbar-custom .nav>li>a:hover, .navbar-custom .navbar-nav li.active a{
+	background-color:rgba(255,255,255,0);
+	color:#1891e8;
+}
+.navbar-custom .navbar-nav li ul.sub-menu li a{
+	background-color:rgba(255,255,255,0);
+	color:rgba(0,0,0,1);
+}
+.navbar-custom .navbar-nav li ul.sub-menu li:hover > a{
+	background-color:rgba(255,255,255,0);
+	color:rgba(0,0,0,0.5);
+}
+.navbar-custom .nav li ul.sub-menu li a:focus, .navbar-custom .nav li ul.sub-menu li.active a{
+	background-color:rgba(255,255,255,0);
+	color:rgba(0,0,0,0.5);
+}
+.sticky-wrapper.is-sticky .navbar-custom{
+	background-color:rgba(0,0,0,1);
+}
+.sticky-wrapper.is-sticky .navbar-custom .navbar-nav li a{
+	color:rgba(0,0,0,1);
+}
+.sticky-wrapper.is-sticky .navbar-custom .navbar-nav li:hover > a{
+	color:rgba(0,0,0,1);
+}
+.header3 .sliding .sliding-menu,.header4 .sliding .sliding-menu{
+	background-color:#eaeaea
+}
+@media (max-width: 768px){
+	.navbar-collapse{
+		background-color:rgba(0,0,0,0);
+	}
+}
